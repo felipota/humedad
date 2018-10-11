@@ -1,0 +1,39 @@
+h3 {
+    color: #CC7178;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+  }
+  img {
+    max-width: 70%;
+    max-height:60%;
+    height: auto;
+    width: auto\9; /* ie8 */
+   
+}
+.container {
+    border: 0px solid #DDDDDD;
+    width: auto;
+    height: auto;
+    position: relative;
+ }
+ .NY {
+    float: left;
+    position: relative;
+    left: 180px;
+    top: -140px;
+    z-index: 1000;
+    background-color: #8C7777;
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 2px;
+ }
+ .th{
+     text-align: left;
+     align-content: flex-start;
+    
+ }
+ .tr{
+    text-align: left;
+    align-content: flex-start;
+}
