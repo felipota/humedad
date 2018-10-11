@@ -6,27 +6,29 @@
   
 </div>
 <div class="container" style="text-align:center">
-  <span>
-   
-        <img  alt="Map"  class="mx-auto d-block" src="./assets/images/usamap.jpg" (click)="display($event)" width="800" height="600" usemap="#planetmap">
-      </span>
-          <div class="NY">
+    <div class = "promo">    
+        <img  alt="Map"  class="mx-auto d-block" src="./assets/images/usamap.jpg" (click)="display($event)"  >
+          <div class="hilight">
               <table>
                   <tr>
                       <th>Ciudad</th>
                       <th>Humedad</th>
                       <th>Presión</th>
+                      <th>Precipitación</th>
+                      <th>Visibilidad</th>
                     </tr>
                 <tr *ngFor="let res of AllResult">
                   <td><strong>{{res.ciudad}}</strong></td>
                   <td> {{res.humidity}}</td>
                   <td> {{res.pressure}}</td>
+                  <td> {{res.rising}}</td>
+                  <td> {{res.visibility}}</td>
                 </tr>
                   
                 </table>
          
           </div>
-
+          </div>
 
  
   
